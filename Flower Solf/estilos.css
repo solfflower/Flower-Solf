@@ -1,0 +1,161 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f4ff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+.encabezado {
+    background: linear-gradient(135deg, #6a0dad, #8a2be2);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(106, 13, 173, 0.3);
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Tarjetas de productos */
+.tarjeta {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(106, 13, 173, 0.15);
+}
+
+.tarjeta h2 {
+    color: #6a0dad;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0e6ff;
+}
+
+.categoria {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px 0 10px;
+    font-size: 1.2rem;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.producto {
+    background-color: #faf7ff;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid #e6d7ff;
+}
+
+.imagen-producto {
+    background-color: white;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #e6d7ff;
+    overflow: hidden;
+}
+
+.imagen-producto img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.nombre-producto {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4b0082;
+}
+
+.detalles-producto {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Botón */
+.boton {
+    display: inline-block;
+    background-color: #8a2be2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #6a0dad;
+}
+
+/* Pie de página */
+.pie-pagina {
+    background: linear-gradient(135deg, #4b0082, #6a0dad);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.redes-sociales {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.instagram-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+.instagram-link:hover {
+    transform: scale(1.1);
+}
+
+.instagram-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
